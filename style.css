@@ -1,0 +1,75 @@
+body{
+  background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d785543a-4d1a-4c2c-9023-ecbf90a7dd5f/d9jco4y-708e2690-5c7c-4eca-9f96-7dc33873af7a.jpg/v1/fill/w_1192,h_670,q_70,strp/abstract_4k_wallpaper_by_kanttii_d9jco4y-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcL2Q3ODU1NDNhLTRkMWEtNGMyYy05MDIzLWVjYmY5MGE3ZGQ1ZlwvZDlqY280eS03MDhlMjY5MC01YzdjLTRlY2EtOWY5Ni03ZGMzMzg3M2FmN2EuanBnIiwid2lkdGgiOiI8PTM4NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.UyY7vFwnQ1BbNaUAMcvGJbeQRfQ1S6viWMy8LCwzjjs);
+  }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+#title{
+  color:white;
+  font-family: 'Nunito', sans-serif;
+  position:relative;
+  font-size:60px;
+}
+#image{
+  position:relative;
+  height:300px;
+  border-radius:40px;
+border:5px Solid white;
+}
+  #img-caption{
+  text-align:center;
+  position:relative;
+  width:54%;
+   font-family: 'Bahianita', sans-serif;
+    font-size:29px;
+    color:white;
+ }
+
+#tribute-info{
+  position:relative;
+  top:10px;
+ font-family: 'Nunito', sans-serif;
+    background-color:lightgrey;
+ border:10px solid white;
+  border-radius:40px;
+  font-size:40px;
+}
+#contant{
+  position:relative;
+  width:auto;
+  background-color:lightgrey;
+  text-align:center;
+  font-family: 'Quicksand', sans-serif;
+  border:10px solid WHITE;
+  border-radius:40px;
+}
+#tribute-link{
+font-family: 'Bahianita', sans-serif;
+  background-color:white;
+  width:100%
+    
+}
+   @media all and (max-width:600px){ 
+    #contant { 
+    font-size:15px;
+      }
+      
+    #image { 
+    height:200px;
+   width:90%;
+  }
+     #img { 
+    height:200px;
+   width:80%;
+  }
+     
+     #title{
+       font-size:50px;
+     }
+     #img-caption{
+       width:100%;
+     }
+}
